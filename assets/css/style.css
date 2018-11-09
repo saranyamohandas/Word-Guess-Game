@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(../images/concrete-texture.png);
+    background-image: url(../images/gaming-pattern.png);
 }
 
 section {
@@ -18,8 +18,21 @@ section {
      margin: 10px;
     
 }
-#id1 #id3 #id3{
-    position: absolute;
-    padding: 20px;
-    right: 50%;
+.card {
+    width: 18rem;
+    position: relative;
+    left:40%;
+    border: none;
+       
+}
+.card-body{
+    margin: auto;
+}
+#rstBtn {
+  display: none;
+  position: relative;
+  left: 60px;
+}
+#cardImg {
+    display: none;
 }

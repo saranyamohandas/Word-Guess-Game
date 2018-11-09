@@ -19,9 +19,10 @@ document.onkeyup = function getUserinput(event){
               attempt--;
              }
                
-              document.getElementById("p1").style.fontSize = '20px';
+              document.getElementById("p1").style.fontSize = '30px';
              document.getElementById("p1").style.fontFamily = "Poor Story";
                 document.getElementById("p1").innerHTML = "Remaining guesses - " + attempt;
+             document.getElementById('p1').style.color = '#360685'
                 if(guess == 10){
                   document.getElementById('rstBtn').style.display = 'block';
                   document.getElementById('p2').style.color = 'red';
@@ -45,7 +46,8 @@ document.onkeyup = function getUserinput(event){
 function showUserInp(){
     document.getElementById("p3").style.fontSize = '30px';
     document.getElementById("p3").style.fontFamily = "Poor Story";
-    document.getElementById('p3').innerHTML = "Your input - " + userInput;
+    document.getElementById('p3').style.color = '#360685'
+    document.getElementById('p3').innerHTML = "Your guesses - " + userInput;
 }
 function checkInput(val){
     var inputIdx = 0;
@@ -73,11 +75,12 @@ function blankSpacegen(blanks){
     document.getElementById('startBtn').style.display = 'none';
     document.getElementById("p2").style.fontSize = '30px';
     document.getElementById("p2").style.fontFamily = 'Poor Story';
+    document.getElementById('p2').style.color = '#360685'
     
     document.getElementById('p2').innerHTML = 'Start guessing!';
-    var node = document.createElement('span');
-    var text = document.createTextNode('_');
-    node.appendChild(text);
+//    var node = document.createElement('span');
+//    var text = document.createTextNode('_');
+//    node.appendChild(text);
     console.log(gameWord);
     for(i=0;i<=blanks.length-1;i++){
         var node = document.createElement('span');

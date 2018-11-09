@@ -1,4 +1,4 @@
-var words = ['game','clock','laptop','earth'];
+var words = ['game','clock','laptop','earth','pizza','book'];
 var arrLen = words.length;
 
 var getWord = Math.floor(Math.random() * arrLen );

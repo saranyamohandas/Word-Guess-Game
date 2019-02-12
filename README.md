@@ -1,7 +1,7 @@
 # Word-Guess-Game
 ---
 
-Homework #3B - Word Guess Game
+Word Guess Game
 ___
 
 ### This is a interactive game application that has been developed using HTML,CSS,bootstrap and javascript 
